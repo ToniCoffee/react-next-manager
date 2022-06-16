@@ -1,0 +1,50 @@
+.section {
+  padding: 1em;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+}
+
+/* .section p {
+  border: 1px solid red;
+  text-align: center;
+  font-weight: bold;
+  padding: .25em .5em;
+} */
+
+.section table {
+  border: 1px solid #000;
+  width: 100%;
+  font-size: min(1em, 3.25vw);
+  word-wrap: break-word;
+  /* word-break: break-all; */
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.section table thead {
+  /* height: 20px; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section table thead th {
+  /* flex-grow: .2; */
+  width: 20%;
+  border: 1px solid black;
+  padding: .25em .1em;
+}
+
+.section table tbody {
+  /* height: 20px; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section table tbody td {
+  /* flex-grow: .2; */
+  width: 20%;
+  border: 1px solid #000;
+  padding: .25em .1em;
+}

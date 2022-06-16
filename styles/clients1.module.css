@@ -1,0 +1,33 @@
+.section {
+  padding: 1em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5em;
+}
+
+.section form {
+  grid-column: 1 / -1;
+  display: flex;
+}
+
+.section form {
+  padding: .5em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section form input {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: 1px solid #aaa;
+  outline: none;
+  text-indent: 10px;
+}
+
+.section form select {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: 1px solid #aaa;
+  outline: none;
+}

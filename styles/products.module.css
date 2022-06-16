@@ -1,0 +1,109 @@
+.table {
+  table-layout: fixed;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #777;
+  border-collapse: collapse;
+  font-size: min(1em, 2vw);
+}
+
+.table thead th:nth-child(1) {
+  width: 10%;
+}
+
+.table thead th:nth-child(2) {
+  width: 20%;
+}
+
+.table thead th:nth-child(3) {
+  width: 30%;
+}
+
+.table thead th:nth-child(4) {
+  width: 30%;
+}
+
+.table th, .table td {
+  padding: 20px 10px;
+}
+
+.table th {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.table td {
+  letter-spacing: 1px;
+}
+
+.table tbody td {
+  text-align: center;
+}
+
+.table tfoot th {
+  text-align: center;
+}
+
+/* .table thead, .table tfoot {
+  background: url('../public/bar-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+} */
+
+
+.table tfoot td {
+  text-align: center;
+}
+
+.table thead th, .table tfoot th, .table tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 1px solid #fff;;
+}
+
+/* .table tbody tr {
+  border: 1px solid #333;
+} */
+
+/* .table tbody tr:nth-child(odd) td {
+  border: 1px solid #aaa;
+}
+
+.table tbody tr:nth-child(even) td {
+  border: 1px solid #333;
+} */
+
+.table tbody tr td, .table tbody tr th {
+  border: 1px solid #fff;
+}
+
+.table tbody tr:nth-child(odd) {
+  /* background-color: #ff33cc; */
+  background-color: #333;
+  color: #eee;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #aaa;
+}
+
+/* .table tbody tr {
+  background-image: url('../public/github.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.table {
+  background-color: #ff33cc;
+} */
+
+.table caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}

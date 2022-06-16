@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "reference": "P708D",
+    "name": "Baguette Plus Gourmet",
+    "alias": "Gourmet"
+  },
+  {
+    "id": 2,
+    "reference": "Desconocida",
+    "name": "Barra Celta 280 GR Okin",
+    "alias": "Barra Celta"
+  },
+  {
+    "id": 3,
+    "reference": "Desconocida",
+    "name": "Barra Huerta 16 UND",
+    "alias": "Barra Huerta"
+  },
+  {
+    "id": 4,
+    "reference": "DIS3",
+    "name": "Barra Huerta 20 UND",
+    "alias": "Barra Huerta"
+  },
+  {
+    "id": 5,
+    "reference": "Desconocida",
+    "name": "Barrita De Agua 140 GR",
+    "alias": "Barrita De Agua"
+  },
+  {
+    "id": 6,
+    "reference": "Desconocida",
+    "name": "Barra Agua 270 GR",
+    "alias": "Barra Agua"
+  },
+  {
+    "id": 7,
+    "reference": "H8",
+    "name": "Baguetina 110 GR",
+    "alias": "Baguetina"
+  },
+  {
+    "id": 8,
+    "reference": "Desconocida",
+    "name": "Baguette Multicereales",
+    "alias": "Baguette Multicereales"
+  },
+  {
+    "id": 9,
+    "reference": "10",
+    "name": "Baguetina Con Salvado 110 GR",
+    "alias": "Baguetina Integral Chica Frida"
+  },
+  {
+    "id": 10,
+    "reference": "Desconocida",
+    "name": "Hostelero 70 GR 100 UND",
+    "alias": "Hostelero 70 GR 100 UND"
+  },
+  {
+    "id": 11,
+    "reference": "5",
+    "name": "Barra Con Salvado 200 GR",
+    "alias": "Barra Con Salvado 200 GR"
+  }
+]
